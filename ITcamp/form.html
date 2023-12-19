@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="formulir">
+      <h1>isi biodata</h1>
+      <br />
+      <form action="">
+        <label for="Nama">Nama :</label><br />
+        <input
+          required
+          class="inp"
+          type="text"
+          name="Nama"
+          id="Nama"
+          placeholder="Masukan Nama"
+        />
+        <br />
+        <label for="umur">umur :</label><br />
+        <input
+          required
+          class="inp"
+          type="number"
+          name="umur"
+          id="umur"
+          placeholder="Masukan umur"
+        />
+        <br />
+        <label for="email">email :</label><br />
+        <input
+          required
+          class="inp"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Masukan email"
+        />
+        <br />
+        <label for="password">password :</label><br />
+        <input
+          required
+          class="inp"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Masukan password"
+        />
+        <br />
+        <label for="ttl">ttl :</label><br />
+        <input required class="inp" type="date" name="ttl" id="ttl" />
+        <br />
+        <label for="pekerjaan">pekerjaan :</label>
+        <select name="pekerjaan" id="pekerjaan">
+          <option value="pelajar">pelajar</option>
+          <option value="mahasiswa">mahasiswa</option>
+          <option value="guru">guru</option>
+          <option value="dosen">dosen</option>
+        </select>
+        <br />
+
+        <p>hobby</p>
+        <input required type="radio" name="hobby" id="makan" />
+        <label for="makan">makan</label><br />
+        <input required type="radio" name="hobby" id="jogging" />
+        <label for="jogging">jogging</label><br />
+        <input required type="radio" name="hobby" id="menggambar" />
+        <label for="menggambar">menggambar</label><br />
+        <input required type="radio" name="hobby" id="turu" />
+        <label for="turu">turu</label><br />
+        <br />
+
+        <p>Hal Yang Disukai :</p>
+        <input required type="checkbox" name="suka" id="hewan" />
+        <label for="hewan">hewan</label><br />
+        <input required type="checkbox" name="suka" id="bunga" />
+        <label for="bunga">bunga</label><br />
+        <input required type="checkbox" name="suka" id="ikan" />
+        <label for="ikan">ikan</label><br />
+        <br />
+
+        <label for="komentar">komentar</label>
+        <br />
+        <textarea
+          name="komentar"
+          id="komentar"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </body>
+</html>
